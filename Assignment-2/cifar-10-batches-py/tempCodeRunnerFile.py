@@ -1,0 +1,10 @@
+img = Image.open(r"C:\Users\kamuj\Downloads\Figure.png")
+# print("hel")
+# image = np.array(img)
+# print(img)
+
+# image = image.reshape(3,32,32)
+# image = image.transpose(1,2,0)
+# plt.imshow(image)
+# print(image.shape)
+# image = image.save("Figure.png")

@@ -1,0 +1,16 @@
+nn.Module
+In PyTorch, nn.Module is a base class for all neural network modules, and it provides a set of common methods and attributes that can be used to define and work with neural networks. Here are some of the common methods and attributes that are present in nn.Module:
+
+Methods:
+
+__init__(): Constructor method that initializes the neural network module.
+forward(): Defines the forward pass of the neural network module.
+parameters(): Returns an iterator over the module's parameters.
+zero_grad(): Sets the gradients of all the parameters to zero.
+to(): Moves the module to a specified device (e.g., GPU or CPU).
+Attributes:
+
+training: A boolean flag that indicates whether the module is in training mode or evaluation mode.
+requires_grad: A boolean flag that indicates whether the module's parameters require gradients to be computed during backpropagation.
+device: The device on which the module is located (e.g., CPU or GPU).
+nn.Module is a very powerful class that allows us to define complex neural network architectures by combining simpler building blocks such as convolutional layers, fully connected layers, and activation functions. It also provides a number of other methods and attributes that can be useful for training and debugging neural networks, such as train(), eval(), state_dict(), and load_state_dict().
